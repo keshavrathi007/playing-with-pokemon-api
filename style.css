@@ -1,0 +1,16 @@
+#card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+#card-container img {
+  margin-bottom: 1rem;
+  height: 200px;
+  width: 200px;
+}
+#card-container img:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
